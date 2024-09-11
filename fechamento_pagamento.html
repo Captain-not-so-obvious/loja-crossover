@@ -49,11 +49,11 @@
                         <div class="align-self-end">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a href="/cadastro.html" class="nav-link text-black">Quero me Cadastrar</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="/login.html" class="nav-link text-black">Entrar</a>
-                                </li>
+                                    <a href="/cadastro.html" class="nav-link text-black">Logado como <b>Fillipe Moreira</b></a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="/login.html" class="nav-link text-black">Sair</a>
+                                  </li>
                                 <li class="nav-item">
                                     <span class="badge rounded-pill bg-light text-danger position-absolute ms-4 mt-0" title="5 produto(s) no carrinho">
                                         <small>5</small>
@@ -72,7 +72,8 @@
                     <h1>Selecione a Forma de Pagamento</h1>
                     <h3 class="mb-4">
                         Selecione a forma de pagamento e clique em
-                        <b>Continuar</b> para prosseguir para a
+                        <b>Continuar</b>
+                        para prosseguir para a
                         <b>concluir o pedido</b>
                         .
                     </h3>
@@ -102,106 +103,109 @@
                                         <label for="txtNome" class="text-black-50">Nome Impresso no Cartão</label>
                                     </div>
                                     <div class="form-floating mb-3">
-                                      <input
-                                          type="number"
-                                          id="txtNumero"
-                                          class="form-control"
-                                          placeholder=" "
-                                      >
-                                      <label for="txtNumero" class="text-black-50">Número do Cartão</label>
-                                  </div>
-                                  <div class="form-floating mb-3">
-                                    <input
-                                        type="number"
-                                        id="txtValidade"
-                                        class="form-control"
-                                        placeholder=" "
-                                    >
-                                    <label for="txtValidade" class="text-black-50">Validade (mm/aa)</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                  <input
-                                      type="password"
-                                      id="txtCVC"
-                                      class="form-control"
-                                      placeholder=" "
-                                      autofocus
-                                  >
-                                  <label for="txtCVC" class="text-black-50">Código de Segurança</label>
-                              </div>
-                              <div class="form-floating">
-                                <select id="selParcelas" class="form-select">
-                                  <option value="1" selected>À Vista</option>
-                                  <option value="2">2x sem juros</option>
-                                  <option value="3">3x sem juros</option>
-                                  <option value="4">4x sem juros</option>
-                                  <option value="5">5x sem juros</option>
-                                  <option value="6">6x sem juros</option>
-                                </select>
-                                <label for="selParcelas" class="text-black-50">Parcelamento</label>
-                            </div>
+                                        <input
+                                            type="text"
+                                            id="txtNumero"
+                                            class="form-control"
+                                            placeholder=" "
+                                        >
+                                        <label for="txtNumero" class="text-black-50">Número do Cartão</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input
+                                            type="number"
+                                            id="txtValidade"
+                                            class="form-control"
+                                            placeholder=" "
+                                        >
+                                        <label for="txtValidade" class="text-black-50">Validade (mm/aa)</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input
+                                            type="password"
+                                            id="txtCodSeguranca"
+                                            class="form-control"
+                                            placeholder=" "
+                                            autofocus
+                                        >
+                                        <label for="txtCodSeguranca" class="text-black-50">Código de Segurança</label>
+                                    </div>
+                                    <div class="form-floating">
+                                        <select id="selParcelas" class="form-select">
+                                            <option value="1" selected>À Vista</option>
+                                            <option value="2">2x sem juros</option>
+                                            <option value="3">3x sem juros</option>
+                                            <option value="4">4x sem juros</option>
+                                            <option value="5">5x sem juros</option>
+                                            <option value="6">6x sem juros</option>
+                                        </select>
+                                        <label for="selParcelas" class="text-black-50">Parcelamento</label>
+                                    </div>
                                 </form>
                             </label>
                         </div>
-                        <div class="d-flex justify-content-between flex-wrap border rounded-top pt-4 px-3">
-                            <div class="mb-4 mx-2 flex-even">
-                                <input
-                                    type="radio"
-                                    class="btn-check"
-                                    name="pagamento"
-                                    autocomplete="off"
-                                    id="pag2"
-                                >
-                                <label class="btn btn-outline-danger p-4 h-100 w-100" for="pag2">
-                                    <h3>
-                                        <b class="text-dark">Dinheiro</b>
-                                        <br>
-                                        <hr>
-                                        <form action=""></form>
-                                    </h3>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="text-end border-top-0 rounded-bottom p-4 pb-0">
-                            <a href="/fechamento_endereco.html" class="btn btn-outline-success btn-lg mb-3">Voltar aos Endereços</a>
-                            <a href="/fechamento_pedido.html" class="btn btn-danger btn-lg ms-2 mb-3">Finalizar</a>
+                        <div class="mb-4 mx-2 flex-even">
+                            <input type="radio" class="btn-check" name="pagamento" autocomplete="off" id="pag2">
+                            <label class="btn btn-outline-danger p-4 h-100 w-100" for="pag2">
+                                <h3>
+                                    <b class="text-dark">Dinheiro</b>
+                                </h3>
+                                <hr>
+                                <form action="">
+                                    <h4>Valor da Compra: <b>R$ 63,86</b></h4>
+                                    <br>
+                                    <p>
+                                        Se precisar de troco, informe no campo abaixo.
+                                    </p>
+                                    <div class="form-floating mb-3">
+                                        <input type="text" id="txtTroco" class="form-control" placeholder=" ">
+                                        <label for="txtTroco" class="text-black-50">Precisa de troco para quanto?</label>
+                                    </div>
+                                </form>
+    
+                            </label>
                         </div>
                     </div>
-                </main>
-                <footer class="border-top text-muted bg-light">
-                    <div class="container">
-                        <div class="row py-3">
-                            <div class="col-12 col-md-4 text-center">
-                                &copy; 2024 - Loja Crossover LTDA ME
-                                <br>
-                                Rua Virtual, 190, World Wide Web/PC
-                                <br>
-                                CNPJ 11.111.111/0001-11
-                            </div>
-                            <div class="col-12 col-md-4 text-center">
-                                <a href="/privacidade.html" class="text-decoration-none text-dark">Política de Privacidade</a>
-                                <br>
-                                <a href="/termos.html" class="text-decoration-none text-dark">Termos de Uso</a>
-                                <br>
-                                <a href="/quemsomos.html" class="text-decoration-none text-dark">Quem Somos</a>
-                                <br>
-                                <a href="/trocas.html" class="text-decoration-none text-dark">Trocas e Devoluções</a>
-                                <br>
-                            </div>
-                            <div class="col-12 col-md-4 text-center">
-                                <a href="contato.html" class="text-decoration-none text-dark">Contato pelo Site</a>
-                                <br>
-                                E-mail:
-                                <a href="mailto:email@dominio.com" class="text-decoration-none text-dark">email@dominio.com</a>
-                                <br>
-                                Telefone:
-                                <a href="phone:999999999999" class="text-decoration-none text-dark">(99) 9 9999-9999</a>
-                            </div>
+                    <div class="text-end border-top-0 rounded-bottom p-4 pb-0">
+                        <a href="/fechamento_endereco.html" class="btn btn-outline-success btn-lg mb-3">Voltar aos Endereços</a>
+                        <a href="/fechamento_pedido.html" class="btn btn-danger btn-lg ms-2 mb-3">Finalizar</a>
+                    </div>
+                </div>
+            </main>
+            <footer class="border-top text-muted bg-light">
+                <div class="container">
+                    <div class="row py-3">
+                        <div class="col-12 col-md-4 text-center">
+                            &copy; 2024 - Loja Crossover LTDA ME
+                            <br>
+                            Rua Virtual, 190, World Wide Web/PC
+                            <br>
+                            CNPJ 11.111.111/0001-11
+                        </div>
+                        <div class="col-12 col-md-4 text-center">
+                            <a href="/privacidade.html" class="text-decoration-none text-dark">Política de Privacidade</a>
+                            <br>
+                            <a href="/termos.html" class="text-decoration-none text-dark">Termos de Uso</a>
+                            <br>
+                            <a href="/quemsomos.html" class="text-decoration-none text-dark">Quem Somos</a>
+                            <br>
+                            <a href="/trocas.html" class="text-decoration-none text-dark">Trocas e Devoluções</a>
+                            <br>
+                        </div>
+                        <div class="col-12 col-md-4 text-center">
+                            <a href="contato.html" class="text-decoration-none text-dark">Contato pelo Site</a>
+                            <br>
+                            E-mail:
+                            <a href="mailto:email@dominio.com" class="text-decoration-none text-dark">email@dominio.com</a>
+                            <br>
+                            Telefone:
+                            <a href="phone:999999999999" class="text-decoration-none text-dark">(99) 9 9999-9999</a>
                         </div>
                     </div>
-                </footer>
-            </div>
+                </div>
+            </footer>
         </div>
-        <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+    </div>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
