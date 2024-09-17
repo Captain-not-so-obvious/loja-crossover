@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Loja Crossover - Área do Cliente - Favoritos</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/img/favicon/favicon-32x32.png"
+        >
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/img/favicon/favicon-16x16.png"
+        >
+        <link rel="manifest" href="/img/favicon/site.webmanifest">
+    </head>
+    <body>
+        <div class="d-flex flex-column wrapper">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-warning border-bottom shadow-sm mb-3">
+                <div class="container">
+                    <a class="navbar-brand text-danger" href="/">
+                        <img src="/img/slides/NBA-Photoroom.png-Photoroom.png" style="width: 12vw; height: 16vh;">
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target=".navbar-collapse"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link active text-black" href="/index.html">Principal</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" href="/contato.html">Contato</a>
+                            </li>
+                        </ul>
+                        <div class="align-self-end">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="/cliente_pedidos.html" class="nav-link text-black">Logado como
+                                        <b>Fillipe Moreira</b>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/login.html" class="nav-link text-black">Sair</a>
+                                </li>
+                                <li class="nav-item">
+                                    <span class="badge rounded-pill bg-light text-danger position-absolute ms-4 mt-0" title="5 produto(s) no carrinho">
+                                        <small>5</small>
+                                    </span>
+                                    <a href="/carrinho.html" class="nav-link text-black">
+                                        <i class="bi-cart text-danger" style="font-size: 24px; line-height: 24px;"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <main class="flex-fill">
+                <div class="container">
+                    <h1>Minha Conta</h1>
+                    <div class="row gx-3">
+                        <div class="col-4">
+                            <div class="list-group">
+                                <a href="/cliente_dados.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-person-fill fs-6"></i> Dados Pessoais
+                                </a>
+                                <a href="/cliente_contatos.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-mailbox2 fs-6"></i> Contatos
+                                </a>
+                                <a href="/cliente_endereco.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-house-fill fs-6"></i> Endereço
+                                </a>
+                                <a href="/cliente_pedidos.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-truck fs-6"></i> Pedidos
+                                </a>
+                                <a href="/cliente_favoritos.html" class="list-group-item list-group-item-action bg-warning text-dark">
+                                    <i class="bi-heart-fill fs-6"></i> Favoritos
+                                </a>
+                                <a href="/cliente_senha.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-lock-fill fs-6"></i> Alterar Senha
+                                </a>
+                                <a href="/index.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-door fs-6"></i> Sair
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                                    <div class="card text-center bg-light">
+                                        <a href="#" class="position-absolute end-0 p-2 text-danger" title="Remover dos favoritos">
+                                            <i class="bi-x" style="font-size: 24px; line-height: 24px;"></i>
+                                        </a>
+                                        <img src="/img/produtos/bola de basquete.jpg" class="card-img-top">
+                                        <div class="card-header">
+                                            R$ 149,99
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bola de Basquete</h5>
+                                            <p class="card-text truncar-3l">
+                                              O item primário de qualquer baller de respeito.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="carrinho.html" class="btn btn-warning mt-2 d-block">
+                                                Adicionar ao Carrinho
+                                            </a>
+                                            <small class="text-success">320UN em estoque</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                                    <div class="card text-center bg-light">
+                                        <a href="#" class="position-absolute end-0 p-2 text-danger" title="Remover dos favoritos">
+                                            <i class="bi-x" style="font-size: 24px; line-height: 24px;"></i>
+                                        </a>
+                                        <img src="/img/produtos/jersey doncic.jpg" class="card-img-top">
+                                        <div class="card-header">
+                                            R$ 249,00
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Jersey Doncic</h5>
+                                            <p class="card-text truncar-3l">
+                                              O tesouro da NBA! Adquira agora essa linda Jersey.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="carrinho.html" class="btn btn-warning mt-2 d-block">
+                                                Adicionar ao Carrinho
+                                            </a>
+                                            <small class="text-success">20UN em estoque</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                                    <div class="card text-center bg-light">
+                                        <a href="#" class="position-absolute end-0 p-2 text-danger" title="Remover dos favoritos">
+                                            <i class="bi-x" style="font-size: 24px; line-height: 24px;"></i>
+                                        </a>
+                                        <img src="/img/produtos/jersey jordan.jpg" class="card-img-top">
+                                        <div class="card-header">
+                                            R$ 4,50
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Jersey Jordan</h5>
+                                            <p class="card-text truncar-3l">
+                                              Simplesmente o GOAT, jersey linda do maior de todos os tempos.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="carrinho.html" class="btn btn-warning mt-2 d-block">
+                                                Adicionar ao Carrinho
+                                            </a>
+                                            <small class="text-success">50UN em estoque</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                                    <div class="card text-center bg-light">
+                                        <a href="#" class="position-absolute end-0 p-2 text-danger" title="Remover dos favoritos">
+                                            <i class="bi-x" style="font-size: 24px; line-height: 24px;"></i>
+                                        </a>
+                                        <img src="/img/produtos/jersey kobe.png" class="card-img-top">
+                                        <div class="card-header">
+                                            R$ 249,00
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Jersey Kobe Bryant</h5>
+                                            <p class="card-text truncar-3l">
+                                              Um dos maiores jogadores de todos os tempos do Lakers, se não for o maior.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="carrinho.html" class="btn btn-warning mt-2 d-block">
+                                                Adicionar ao Carrinho
+                                            </a>
+                                            <small class="text-success">60UN em estoque</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                                    <div class="card text-center bg-light">
+                                        <a href="#" class="position-absolute end-0 p-2 text-danger" title="Remover dos favoritos">
+                                            <i class="bi-x" style="font-size: 24px; line-height: 24px;"></i>
+                                        </a>
+                                        <img src="/img/produtos/jersey mamba.jpg" class="card-img-top">
+                                        <div class="card-header">
+                                            R$ 249,00
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Jersey Black Mamba</h5>
+                                            <p class="card-text truncar-3l">
+                                              O Black Mamba inspirou além das quadras com sua mentalidade e basquete.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="carrinho.html" class="btn btn-warning mt-2 d-block">
+                                                Adicionar ao Carrinho
+                                            </a>
+                                            <small class="text-success">77UN em estoque</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                                    <div class="card text-center bg-light">
+                                        <a href="#" class="position-absolute end-0 p-2 text-danger" title="Remover dos favoritos">
+                                            <i class="bi-x" style="font-size: 24px; line-height: 24px;"></i>
+                                        </a>
+                                        <img src="/img/produtos/tenis lebron.jpg" class="card-img-top">
+                                        <div class="card-header">
+                                            R$ 712,49
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Tênis Lebron XIX</h5>
+                                            <p class="card-text truncar-3l">
+                                              Lebron já ultrapassou o legado de MJ? Isso eu não sei, o que eu sei é que esse tênis é muito brabo 🔥
+                                            </p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="carrinho.html" class="btn btn-warning mt-2 d-block">
+                                                Adicionar ao Carrinho
+                                            </a>
+                                            <small class="text-success">80UN em estoque</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                                    <div class="card text-center bg-light">
+                                        <a href="#" class="position-absolute end-0 p-2 text-danger" title="Remover dos favoritos">
+                                            <i class="bi-x" style="font-size: 24px; line-height: 24px;"></i>
+                                        </a>
+                                        <img src="/img/produtos/tenis shaq.jpg" class="card-img-top">
+                                        <div class="card-header">
+                                            R$ 1099,99
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Tênis Shaq Victory Pump</h5>
+                                            <p class="card-text truncar-3l">
+                                              A linha de tênis de um dos pivôs mais temidos de todos os tempos.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="carrinho.html" class="btn btn-warning mt-2 d-block">
+                                                Adicionar ao Carrinho
+                                            </a>
+                                            <small class="text-success">90UN em estoque</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                                    <div class="card text-center bg-light">
+                                        <a href="#" class="position-absolute end-0 p-2 text-danger" title="Remover dos favoritos">
+                                            <i class="bi-x" style="font-size: 24px; line-height: 24px;"></i>
+                                        </a>
+                                        <img src="/img/produtos/jersey curry.jpeg" class="card-img-top">
+                                        <div class="card-header">
+                                            R$ 249,00
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Jersey Curry</h5>
+                                            <p class="card-text truncar-3l">
+                                              Reza a lenda que quem vestir essa jersey ganha +10 pts de arremesso de 3
+                                            </p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="carrinho.html" class="btn btn-disabled mt-2 d-block">
+                                                Avise-me quando chegar
+                                            </a>
+                                            <small class="text-success">Produto Esgotado</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="border-top text-muted bg-light">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-12 col-md-4 text-center">
+                    &copy; 2024 - Loja Crossover LTDA ME
+                    <br>
+                    Rua Virtual, 190, World Wide Web/PC
+                    <br>
+                    CNPJ 11.111.111/0001-11
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <a href="/privacidade.html" class="text-decoration-none text-dark">Política de Privacidade</a>
+                    <br>
+                    <a href="/termos.html" class="text-decoration-none text-dark">Termos de Uso</a>
+                    <br>
+                    <a href="/quemsomos.html" class="text-decoration-none text-dark">Quem Somos</a>
+                    <br>
+                    <a href="/trocas.html" class="text-decoration-none text-dark">Trocas e Devoluções</a>
+                    <br>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <a href="contato.html" class="text-decoration-none text-dark">Contato pelo Site</a>
+                    <br>
+                    E-mail:
+                    <a href="mailto:email@dominio.com" class="text-decoration-none text-dark">email@dominio.com</a>
+                    <br>
+                    Telefone:
+                    <a href="phone:999999999999" class="text-decoration-none text-dark">(99) 9 9999-9999</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</div>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
